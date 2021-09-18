@@ -1,5 +1,4 @@
-Uploading Images/files to the Node server With Progress
-=
+Uploading Images/files to the Node server With Progress bar
 
 NAIN TECH CHANNEL
 =
