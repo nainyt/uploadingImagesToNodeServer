@@ -1,0 +1,94 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+  }
+  body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: crimson;
+  }
+  .wrapper{
+    align-items: center;
+    width: 500px;
+    padding: 20px;
+    background: white;
+    border-radius: 5px;
+  }
+  .wrapper h2{
+    text-align: center;
+    color: crimson;
+    text-shadow: 0 0 0 black;
+    margin-bottom: 10px
+  }
+  form{
+    border: 2px dashed crimson;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-family: courier;
+    font-weight: 600;
+  }
+  form i{
+    font-size: 40px;
+    color: crimson;
+
+  }
+  .upload-file{
+    display: flex;
+    padding: 10px;
+    font-size: 16px;
+  }
+  .upload-file i{
+    color: crimson;
+    text-shadow: 0 0 0 black;
+    justify-content: center;
+    align-self: center;
+    font-size: 35px;
+    margin-right: 10px;
+  }
+  .content {
+   
+    width: 100%;
+  }
+  .content div {
+    display: flex;
+
+  }
+  .content div span:first-child{
+    flex-grow: 1;
+  }
+.progress-bar{
+  margin-top: 5px;
+  background: crimson;
+  width: 40%;
+  height: 6px;
+  }
+  .uploaded{
+    max-height: 220px;
+    overflow-y: auto;
+  }
+  .uploaded::-webkit-scrollbar{
+    width: 0;
+  }
+  .uploaded .content i{
+    color: crimson;
+    font-size: 20px;
+  }
+  .uploaded .size{
+    font-size: 13px;
+  }
+  .error{
+    text-align: center;
+    color: crimson;
+    margin-top: 5px;
+    font-weight: bold;
+    transition: all 2s ease;
+    opacity : 0;
+    display: none;
+  }
